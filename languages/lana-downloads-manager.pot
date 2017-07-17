@@ -1,0 +1,334 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lana Downloads Manager\n"
+"POT-Creation-Date: 2017-04-27 07:34+0200\n"
+"PO-Revision-Date: 2016-11-23 21:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-lana-download-widget.php:14
+msgid "Lana - Download"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:15
+msgid "Download button with counter."
+msgstr ""
+
+#: includes/class-lana-download-widget.php:87
+#: includes/class-lana-downloads-manager-logs-list-table.php:124
+#: lana-downloads-manager.php:218 lana-downloads-manager.php:1108
+msgid "Download"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:90
+msgid "Total downloads:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:136
+msgid "No posts in Lana Downloads."
+msgstr ""
+
+#: includes/class-lana-download-widget.php:145
+msgid "File:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:164
+msgid "Title:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:169
+#: includes/class-lana-download-widget.php:182
+#: includes/class-lana-download-widget.php:195 lana-downloads-manager.php:605
+#: lana-downloads-manager.php:628
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:172
+#: includes/class-lana-download-widget.php:185
+#: includes/class-lana-download-widget.php:198 lana-downloads-manager.php:601
+#: lana-downloads-manager.php:624
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:177
+msgid "Text:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:190
+msgid "Featured Image:"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:47
+msgid "Delete"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:65
+msgid "(no date)"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:69
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:82
+msgid "(no longer exists)"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:94
+msgid "Non-member"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:125
+msgid "User"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:126
+msgid "IP Address"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:127
+msgid "User Agent"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:128
+msgid "Date"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:148
+msgid "Log entries deleted"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:173
+msgid "Show all dates"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:184
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:192
+msgid "25 per page"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:195
+msgid "50 per page"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:198
+msgid "100 per page"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:203
+msgid "Filter"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:262
+msgid "process_bulk_action() nonce check failed"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:266
+msgid "You're not allowed to delete logs!"
+msgstr ""
+
+#: lana-downloads-manager.php:28 lana-downloads-manager.php:476
+msgid "Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:216
+msgid "All Downloads"
+msgstr ""
+
+#: lana-downloads-manager.php:217
+msgid "Downloads"
+msgstr ""
+
+#: lana-downloads-manager.php:219
+msgid "Add New"
+msgstr ""
+
+#: lana-downloads-manager.php:220
+msgid "Add Download"
+msgstr ""
+
+#: lana-downloads-manager.php:221
+msgid "Edit"
+msgstr ""
+
+#: lana-downloads-manager.php:222
+msgid "Edit Download"
+msgstr ""
+
+#: lana-downloads-manager.php:223
+msgid "New Download"
+msgstr ""
+
+#: lana-downloads-manager.php:224 lana-downloads-manager.php:225
+msgid "View Download"
+msgstr ""
+
+#: lana-downloads-manager.php:226
+msgid "Search Downloads"
+msgstr ""
+
+#: lana-downloads-manager.php:227
+msgid "No Downloads found"
+msgstr ""
+
+#: lana-downloads-manager.php:228
+msgid "No Downloads found in trash"
+msgstr ""
+
+#: lana-downloads-manager.php:229
+msgid "Parent Download"
+msgstr ""
+
+#: lana-downloads-manager.php:283
+msgid "Categories"
+msgstr ""
+
+#: lana-downloads-manager.php:284
+msgid "Category"
+msgstr ""
+
+#: lana-downloads-manager.php:304
+msgid "URL"
+msgstr ""
+
+#: lana-downloads-manager.php:305
+msgid "Shortcode"
+msgstr ""
+
+#: lana-downloads-manager.php:306
+msgid "Download Count"
+msgstr ""
+
+#: lana-downloads-manager.php:366
+msgid "All Category"
+msgstr ""
+
+#: lana-downloads-manager.php:367
+msgid "None"
+msgstr ""
+
+#: lana-downloads-manager.php:473 lana-downloads-manager.php:617
+msgid "Logs"
+msgstr ""
+
+#: lana-downloads-manager.php:503 lana-downloads-manager.php:520
+msgid "Lana Downloads Manager Logs"
+msgstr ""
+
+#: lana-downloads-manager.php:505
+#, php-format
+msgid "Logs is disabled. Go to the <a href=\"%s\">Settings</a> page to enable."
+msgstr ""
+
+#: lana-downloads-manager.php:523
+msgid "Delete Logs"
+msgstr ""
+
+#: lana-downloads-manager.php:542
+msgid "Lana Downloads Manager Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:547
+msgid "General Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:552
+msgid "Endpoint"
+msgstr ""
+
+#: lana-downloads-manager.php:563
+msgid "Category Endpoint"
+msgstr ""
+
+#: lana-downloads-manager.php:575
+msgid "Endpoint Type"
+msgstr ""
+
+#: lana-downloads-manager.php:582
+msgid "ID"
+msgstr ""
+
+#: lana-downloads-manager.php:586
+msgid "slug"
+msgstr ""
+
+#: lana-downloads-manager.php:594
+msgid "Public"
+msgstr ""
+
+#: lana-downloads-manager.php:612
+msgid "Log Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:637
+msgid "Save Changes"
+msgstr ""
+
+#: lana-downloads-manager.php:710
+msgid "No download_id defined."
+msgstr ""
+
+#: lana-downloads-manager.php:716
+msgid "No file URL defined."
+msgstr ""
+
+#: lana-downloads-manager.php:716 lana-downloads-manager.php:722
+msgid "Go to homepage &rarr;"
+msgstr ""
+
+#: lana-downloads-manager.php:716 lana-downloads-manager.php:722
+msgid "Download Error"
+msgstr ""
+
+#: lana-downloads-manager.php:722
+msgid "No file path defined."
+msgstr ""
+
+#: views/lana-downloads-manager-info-metabox.php:3
+msgid "ID:"
+msgstr ""
+
+#: views/lana-downloads-manager-info-metabox.php:8
+msgid "Download count:"
+msgstr ""
+
+#: views/lana-downloads-manager-info-metabox.php:13
+msgid "URL:"
+msgstr ""
+
+#: views/lana-downloads-manager-info-metabox.php:19
+msgid "Shortcode:"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:5
+msgid "File (URL):"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:16
+msgid "Choose a file"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:17
+msgid "Insert file URL"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:18
+msgid "Upload File"
+msgstr ""

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <br/>
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="file" class="col-xs-3 col-sm-3 control-label">File</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="file" name="file">
+                    <option value="" disabled hidden selected>Select File...</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-8 col-sm-offset-3 col-sm-8">
+                <button type="submit" id="insert" class="btn btn-primary">Insert</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script type="text/javascript">
+    jQuery(function () {
+
+        var args = top.tinymce.activeEditor.windowManager.getParams();
+        var lana_download_list = args['lana_download_list'];
+
+        jQuery.each(jQuery.parseJSON(lana_download_list), function (id, title) {
+            jQuery('select#file').append(jQuery('<option>').attr('value', id).text('#' + id + ' - ' + title));
+        });
+
+        jQuery('#insert').click(function () {
+            var file = jQuery('#file').val();
+
+            top.tinymce.activeEditor.insertContent('[lana_download id="' + file + '"]');
+            top.tinymce.activeEditor.windowManager.close();
+        });
+    });
+</script>
+</html>
